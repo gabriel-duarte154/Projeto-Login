@@ -11,7 +11,7 @@
     main > #login {
 
         width: 700px;
-        height: 500px;
+        height: 370px;
     }
     section > #img {
 
@@ -30,13 +30,17 @@
 
     #formulario > h1 {
 
+        margin-top: 10px;
         font-size: 1.8em;
     }
 
     div#formulario > p {
 
         font-size: 1em;
+        margin-bottom: 50px;
+
     }
+
 }
 
 @media screen and (min-width: 993px) {
@@ -49,7 +53,7 @@
     main > #login {
 
         width: 900px;
-        height: 500px;
+        height: 370px;
     }
     section > #img {
 
@@ -68,11 +72,13 @@
 
     #formulario > h1 {
 
+        margin-top: 10px;
         font-size: 1.8em;
     }
 
     div#formulario > p {
 
         font-size: 1em;
+        margin-bottom: 50px;
     }
 }
