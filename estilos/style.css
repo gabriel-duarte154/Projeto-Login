@@ -17,8 +17,7 @@ body, html {
 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: var(--cor2);
-    height: 100vh;
-    width: 100vw;
+    
 }
 
 main {
@@ -39,6 +38,8 @@ main > #login {
     height: 500px;
     width: 300px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.308);
+    transition: width 0.4s;
+    transition-timing-function: cubic-bezier(0, 0.15, 0.7, 0)
 }
 
 section > #img {
@@ -47,7 +48,6 @@ section > #img {
     background: black url(../imagens/pattern-image.jpg) no-repeat left center;
     background-size: cover;
     border-radius: 20px 20px 0 0;
-    width: 100%;
     height: 175px;
 
 }
@@ -55,6 +55,6 @@ section > #img {
 section > #formulario {
 
     display: block;
-    margin: 10px;
+    padding: 10px;
 
 }
