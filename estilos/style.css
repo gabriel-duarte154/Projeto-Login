@@ -6,3 +6,55 @@
     --cor2: #638AE7;
     --cor3: #6167FF;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--cor2);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+main > #login {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 20px;
+    height: 500px;
+    width: 300px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.308);
+}
+
+section > #img {
+
+    display: block;
+    background: black url(../imagens/pattern-image.jpg) no-repeat left center;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 175px;
+
+}
+
+section > #formulario {
+
+    display: block;
+    margin: 10px;
+
+}
